@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "echo 'Local: http://localhost:5173' && echo 'Vercel: https://tripplanner-a94f3bpnd-atharvasankhes-projects.vercel.app' && vite --host",
+    "dev": "echo Visit the app at https://trip-advisor-rho.vercel.app",
     "start": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
