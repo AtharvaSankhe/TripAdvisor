@@ -4,13 +4,6 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
-  server: {
-    https: {
-      key: fs.readFileSync("localhost-key.pem"),
-      cert: fs.readFileSync("localhost-cert.pem"),
-    },
-    host: true,
-  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
